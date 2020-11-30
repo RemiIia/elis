@@ -1,0 +1,25 @@
+[package]
+name = "elis-core"
+version = "0.1.0"
+authors = ["RemiIia <valent.xarin@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# actix = "0.10.0"
+# actix-rt = "1.1.1"
+# tokio = { version = "0.3.4", features = ["full"] }
+
+async-std = "1.7.0"
+async-trait = "0.1.42"
+xactor = "0.7.8"
+futures = "0.3.8"
+
+flexi_logger = { version = "0.16", features = ["colors"] }
+log = "0.4.11"
+
+serde = "1.0.117"
+serde_derive = "1.0.117"
+serde_json = "1.0.59"
+
