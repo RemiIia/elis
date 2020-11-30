@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "core/elis-core",
+    "front-ends/elis-cli",
+    "front-ends/elis-iced",
+]
