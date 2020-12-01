@@ -1,6 +1,7 @@
 [workspace]
 members = [
     "core/elis-core",
+    "core/elis-rope",
     "front-ends/elis-cli",
     "front-ends/elis-iced",
 ]
